@@ -2,6 +2,7 @@
   "name": "foobar",
   "version": "1.0.0",
   "dependencies": {
-    "chalk": "^1.1.3"
+    "chalk": "^1.1.3",
+    "lodash": "3.3.1"
   }
 }
