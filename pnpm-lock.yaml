@@ -14,6 +14,9 @@ importers:
       lodash:
         specifier: 4.17.21
         version: 4.17.21
+      request:
+        specifier: 2.2.6
+        version: 2.2.6
 
 packages:
 
@@ -39,6 +42,11 @@ packages:
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+
+  request@2.2.6:
+    resolution: {integrity: sha512-kL3UIfgvH1t3GKkOcepYtcgztDE44GF1VH9cQ5d4CfoBI2WDtHf4OznkRYyFeucyRunrapP7XwXqwdv115w4DA==}
+    engines: {'0': node >= 0.3.6}
+    deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
 
   strip-ansi@3.0.1:
     resolution: {integrity: sha512-VhumSSbBqDTP8p2ZLKj40UjBCV4+v8bUSEpUb4KjRgWk9pbqGF4REFj6KEagidb2f/M6AzC0EmFyDNGaw9OCzg==}
@@ -69,6 +77,8 @@ snapshots:
       ansi-regex: 2.1.1
 
   lodash@4.17.21: {}
+
+  request@2.2.6: {}
 
   strip-ansi@3.0.1:
     dependencies:
